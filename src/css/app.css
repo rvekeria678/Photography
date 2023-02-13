@@ -1,0 +1,26 @@
+body, html {
+    background: linear-gradient(to top, rgb(206, 206, 248), white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Inter;
+    padding: 0;
+    margin: 0;
+}
+.client-cards {
+    padding: 3em;
+    display: flex;
+}
+.client-cards > .card {
+    margin: 20px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: end;
+    background-color: rgb(245, 245, 245);
+}
+small {
+    margin-right: 20px;
+}
